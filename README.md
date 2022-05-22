@@ -15,6 +15,7 @@
 * commande : ifconfig    
   aller à l’adresse suivante : 'http://ip_du_serveur' depuis notre navigateur  
   Il y a une page qui s'ouvre depuis le navigateur (page de l'index.html du serveur) 
+  ![image Sarobidy-nantenaina](https://academy.rdr-it.io/wp-content/uploads/2021/03/apache2-work.png)
 * aller voir cette page sur notre serveur Web.  
 Depuis le terminal, aller dans le dossier :'/var/www/html' et lister le contenu.
   * commande :cd /var/www/html  
@@ -26,7 +27,7 @@ Depuis le terminal, aller dans le dossier :'/var/www/html' et lister le contenu.
   un peu sous la forme d’un  TP.
 
 Dans le dossier /var/www/html je vais créer une page web teste.html avec le code ci-dessous dedans :  
-'<!DOCTYPE html>
+* <!DOCTYPE html>
     <head>
         <title>Ma première page sur mon serveur Apache2</title>
     </head>
@@ -35,7 +36,7 @@ Dans le dossier /var/www/html je vais créer une page web teste.html avec le cod
         <p>Hello World !</p>
         <p>Ceci est ma première page perso sur mon serveur Web Apache2 que j'ai installé </a>.</p>
     </body>
-</html>'  
+</html>  
 
 ##  Pour gérer le serveur Apache2
   * Voici la liste des commandes à utiliser pour gérer le service Apache2 sur le serveur
