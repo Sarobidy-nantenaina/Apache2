@@ -7,14 +7,10 @@
   ### Install apache2 sans confirmation
    sudo apt install apache2 -y
 
-Comment vous pouvez le voir, l’installation n’est pas compliqué.
-
-Quelques informations pratiques avant de continuer :
-
 * Par défaut apache2 créer un vhost qui écoute sur toutes les ip du serveur sur le port 80.
 * Le dossier du site par défaut est /var/www/html. 
  
-# Premier teste u serveur Apache 2
+# Premier teste du serveur Apache 2
   Il faut dejà savoir l' adresse IP de notre serveur et après  
 * commande : ifconfig    
   aller à l’adresse suivante : 'http://ip_du_serveur' depuis notre navigateur  
